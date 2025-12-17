@@ -11,7 +11,7 @@ export default function Bio() {
     if (!character) {
         return (
             <div className="shell">
-                <header className="topTitle">Title</header>
+                <header className="topTitle">DIGIT 400: Final Project</header>
                 <main className="card bigCard">
                     <p>Character not found.</p>
                     <button className="pixelBtn" onClick={() => nav("/home")}>Back</button>
@@ -69,7 +69,7 @@ export default function Bio() {
                 </section>
             </main>
 
-            <footer className="footerPill">footer</footer>
+            <footer className="footerPill">DIGIT 400 © 2025 by Raashee Mishra is licensed under CC BY-NC-SA 4.0</footer>
         </div>
     );
 }

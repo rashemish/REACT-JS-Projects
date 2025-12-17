@@ -1,8 +1,8 @@
 // Example placeholders (add your own images in src/assets and import them)
-import miffy from "src/assets/miffy.png";
-import snoopy from "src/assets/snoopy.png";
-import moomin from "src/assets/moomin.png";
-import smiski from "src/assets/smiski.png";
+import miffy from "../assets/miffy.png";
+import snoopy from "../assets/snoopy.png";
+import moomin from "../assets/moomin.png";
+import smiski from "../assets/smiski.png";
 
 export const characters = [
     {

@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <div className="shell">
-            <header className="topTitle">Title</header>
+            <header className="topTitle">DIGIT 400: Final Project</header>
 
             <main className="card bigCard collage">
                 {characters.map((c) => (
@@ -27,7 +27,7 @@ export default function Home() {
                 ))}
             </main>
 
-            <footer className="footerPill">footer</footer>
+            <footer className="footerPill">DIGIT 400 © 2025 by Raashee Mishra is licensed under CC BY-NC-SA 4.0</footer>
         </div>
     );
 }

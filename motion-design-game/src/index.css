@@ -12,6 +12,10 @@ body {
     grid-template-rows: auto 1fr auto;
     padding: 28px 22px;
     gap: 18px;
+    font-family: sofia-pro-soft, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
 }
 
 .topTitle {
@@ -33,6 +37,10 @@ body {
     height: min(560px, 70vh);
     margin: 0 auto;
     padding: 28px;
+    font-family: sofia-pro-soft, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
 }
 
 .footerPill {
@@ -44,10 +52,9 @@ body {
     border-radius: 999px;
     padding: 16px 18px;
     font-weight: 800;
-    font-size: 34px;
+    font-size: 15px;
 }
 
-/* WELCOME */
 .welcomeText {
     position: absolute;
     left: 8%;
@@ -93,42 +100,6 @@ body {
 }
 .arrowBtn:hover { transform: translateY(-3px) scale(1.02); }
 
-/* floating decor */
-.floatStar {
-    position: absolute;
-    width: 46px;
-    height: 46px;
-    border-radius: 12px;
-    background: #f4c4d9;
-    border: 3px solid #111;
-    animation: floaty 2.6s ease-in-out infinite;
-}
-.star1 { left: 30px; top: 30px; }
-.star2 { right: 40px; bottom: 40px; animation-delay: .7s; }
-
-.pixelPlus {
-    position: absolute;
-    right: 0;
-    top: 90px;
-    width: 44px;
-    height: 44px;
-    background: #f7b6cd;
-    box-shadow:
-            0 0 0 3px #111,
-            12px 0 0 0 #f7b6cd,
-            -12px 0 0 0 #f7b6cd,
-            0 12px 0 0 #f7b6cd,
-            0 -12px 0 0 #f7b6cd;
-    border-radius: 10px;
-    animation: floaty 3s ease-in-out infinite;
-}
-
-@keyframes floaty {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-12px); }
-}
-
-/* INFO */
 .infoLayout {
     display: grid;
     grid-template-columns: 1fr 1.2fr 1fr;
@@ -150,7 +121,12 @@ body {
     display: grid;
     justify-items: center;
     gap: 24px;
+    font-size: 12px;
+    font-family: sofia-pro-soft, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 .infoText {
     font-size: clamp(24px, 2.2vw, 40px);
     text-align: center;
@@ -162,14 +138,15 @@ body {
     background: #f7b6cd;
     border-radius: 18px;
     padding: 18px 38px;
-    font-size: 34px;
-    font-weight: 900;
+    font-size: 20px;
     cursor: pointer;
     transition: transform 0.15s ease;
+    font-family: sofia-pro-soft, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 .pixelBtn:hover { transform: translateY(-3px) scale(1.02); }
 
-/* HOME COLLAGE */
 .collage { position: relative; }
 .charBtn {
     position: absolute;
@@ -189,7 +166,6 @@ body {
     transform: scale(1.07) rotate(2deg);
 }
 
-/* BIO GRID */
 .bioGrid {
     display: grid;
     grid-template-columns: 1.05fr 1.4fr 1fr;

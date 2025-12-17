@@ -5,17 +5,16 @@ export default function Welcome() {
 
     return (
         <div className="shell">
-            <header className="topTitle">Title</header>
+            <header className="topTitle">DIGIT 400: Final Project</header>
 
             <main className="card bigCard">
-                <h1 className="welcomeText">Who’s Your Little Friend?</h1>
+                <h1 className="welcomeText">Who’s Your <br />
+                    Little <br />
+                    Friend?
+                </h1>
 
                 <div className="welcomeArt">
-                    <div className="floatStar star1" />
-                    <div className="floatStar star2" />
-                    <div className="pixelPlus" />
-                    {/* Replace this with your own welcome image */}
-                    <div className="welcomePlaceholder">🐰</div>
+                    <img src={miffywelcome} alt="Miffy" className="heroImg" />
                 </div>
 
                 <button className="arrowBtn" onClick={() => nav("/info")} aria-label="Go to info">
@@ -23,7 +22,7 @@ export default function Welcome() {
                 </button>
             </main>
 
-            <footer className="footerPill">footer</footer>
+            <footer className="footerPill">DIGIT 400 © 2025 by Raashee Mishra is licensed under CC BY-NC-SA 4.0</footer>
         </div>
     );
 }

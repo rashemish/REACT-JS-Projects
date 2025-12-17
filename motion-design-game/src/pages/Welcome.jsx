@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import miffywelcome from "../assets/miffywelcome.png";
 
 export default function Welcome() {
     const nav = useNavigate();
@@ -14,7 +15,9 @@ export default function Welcome() {
                 </h1>
 
                 <div className="welcomeArt">
-                    <img src={miffywelcome} alt="Miffy" className="heroImg" />
+                    <div className="welcomePlaceholder">
+                        <img src={miffywelcome} alt="Miffy" className="welcomeImg" />
+                    </div>
                 </div>
 
                 <button className="arrowBtn" onClick={() => nav("/info")} aria-label="Go to info">

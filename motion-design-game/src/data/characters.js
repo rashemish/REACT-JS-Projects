@@ -1,0 +1,77 @@
+// Example placeholders (add your own images in src/assets and import them)
+import miffy from "../assets/miffy.png";
+import snoopy from "../assets/snoopy.png";
+import smiski from "../assets/smiski.png";
+
+export const characters = [
+    {
+        id: "miffy",
+        name: "Miffy",
+        img: miffy,
+        pos: { top: "62%", left: "84%", w: "170px", rot: "6deg" },
+        about: "A tiny bunny with a big heart. Simple, sweet, iconic.",
+        facts: ["Created by Dick Bruna", "Minimal style", "Cozy vibes"],
+        vibe: "Soft + calm",
+        likes: ["stars", "pastels", "quiet moments"],
+    },
+    {
+        id: "snoopy",
+        name: "Snoopy",
+        img: snoopy,
+        pos: { top: "78%", left: "18%", w: "220px", rot: "-8deg" },
+        about: "A daydreamer, a writer, and sometimes a flying ace.",
+        facts: ["Peanuts character", "Big imagination", "Best napper"],
+        vibe: "Dreamy + funny",
+        likes: ["sleep", "music", "adventures"],
+    },
+    {
+        id: "smiski",
+        name: "Smiski",
+        img: smiski,
+        pos: { top: "22%", left: "90%", w: "150px", rot: "-5deg" },
+        about: "Tiny glow dude who hides in corners and brings weird joy.",
+        facts: ["Collectible figure", "Glows in dark", "Shy"],
+        vibe: "Silly + mysterious",
+        likes: ["corners", "nighttime", "posing"],
+    },
+    {
+        id: "hello-kitty",
+        name: "Hello Kitty",
+        img: hellokitty,
+        pos: { top: "58%", left: "50%", w: "190px", rot: "3deg" },
+        about: "Classic Sanrio icon with a sweet, friendly vibe.",
+        facts: ["Sanrio character", "Global icon", "Cute + timeless"],
+        vibe: "Sweet + iconic",
+        likes: ["bows", "friends", "baking"],
+    },
+    {
+        id: "calico-critters",
+        name: "Calico Critters",
+        img: calicocritter,
+        pos: { top: "26%", left: "22%", w: "240px", rot: "6deg" },
+        about: "Tiny animal families with cozy miniature worlds.",
+        facts: ["Collectible figures", "Mini furniture", "Cozy aesthetic"],
+        vibe: "Cozy + nostalgic",
+        likes: ["tiny homes", "families", "tea time"],
+    },
+    {
+        id: "mofusand",
+        name: "Mofusand",
+        img: mofusand,
+        pos: { top: "34%", left: "60%", w: "200px", rot: "-4deg" },
+        about: "Cute cats in costumes doing silly, adorable things.",
+        facts: ["Cat characters", "Costumes", "Meme-able"],
+        vibe: "Funny + cute",
+        likes: ["cats", "snacks", "costumes"],
+    },
+    {
+        id: "pusheen",
+        name: "Pusheen",
+        img: pusheen,
+        pos: { top: "20%", left: "44%", w: "220px", rot: "-7deg" },
+        about: "A chubby gray cat who loves snacks and naps.",
+        facts: ["Internet icon", "Comics + stickers", "Very cozy"],
+        vibe: "Snacky + sleepy",
+        likes: ["pizza", "coffee", "blankets"],
+    },
+];
